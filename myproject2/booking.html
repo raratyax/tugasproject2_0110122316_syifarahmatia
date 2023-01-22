@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bengkel Saturnus</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body style="background-color: lightgrey;">
+
+    <div class="container-fluid" style="margin: 5px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="text-align: center;background-color: rgb(87, 85, 82);padding: 10px; color: aliceblue;">
+                    Bengkel Saturnus
+                </h1>
+                <div class="row">
+                    <div class="col-md-9" style="background-color: white;border-radius: 50px;">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index.html">Beranda</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="layanan.html">Layanan</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="booking.html">Booking</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="tentang.html">Tentang Kami</a>
+                            </li>
+                            <li class="nav-item ml-md-auto">
+                                <a href="masuk.html">Masuk</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" type="text">
+                            <button class="btn btn-primary my-2 my-sm-1" type="submit">
+                                Cari
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <ol class="breadcrumb" style="background-color: lightgrey;">
+                            <li class="breadcrumb-item">
+                                <a href="index.html"> <u>Beranda</u> </a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                Booking
+                            </li>
+                        </ol>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-12">
+
+                                        <h4>Booking Service</h4>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <form action="/submit-form" method="post" role="form"
+                                                    style="border: 3px dotted black; padding: 2em;">
+
+                                                    <label for="jenis_kendaraan">Pabrikan Mobil:</label>
+                                                    <select class="form-control" id="jenis_kendaraan"
+                                                        name="jenis_kendaraan">
+                                                        <option value="mobil">Pilihan </option>
+                                                        <option value="mobil">BMW</option>
+                                                        <option value="motor">TOYOTA</option>
+                                                        <option value="bus">DAIHATSU</option>
+                                                        <option value="truck">HONDA</option>
+                                                        <option value="mobil">MITSUBISHI</option>
+                                                        <option value="motor">SUZUKI</option>
+                                                        <option value="bus">WULING</option>
+                                                        <option value="truck">NISSAN</option>
+                                                        <option value="mobil">ISUZU</option>
+                                                        <option value="motor">KIA</option>
+                                                        <option value="bus">MAZDA</option>
+                                                        <option value="truck">MECEDEZ-BENZ</option>
+                                                        <option value="truck">Lainnya...</option>
+                                                    </select>
+
+                                                    <label for="nama_pemesan">Nama Pemesan:</label>
+                                                    <input type="text" class="form-control" id="nama_pemesan"
+                                                        name="nama_pemesan" />
+
+                                                    <label for="kategori_peminjam">Kategori Peminjam:</label>
+                                                    <div class="radio">
+                                                        <input type="radio" name="a" id="b">
+                                                        <label for="b">Pibadi</label>
+                                                        <input type="radio" name="a" id="c" style="margin-left: 5em;">
+                                                        <label for="c">Perusahaan / Organisasi</label>
+                                                    </div>
+
+                                                    <label for="deskripsi_kebutuhan">Deskripsi Kebutuhan:</label>
+                                                    <textarea class="form-control" id="deskripsi_kebutuhan"
+                                                        name="deskripsi_kebutuhan"></textarea>
+
+                                                    <label for="jam_service">Jam Service:</label>
+                                                    <input class="form-control" type="time" id="jam_service"
+                                                        name="jam_service">
+
+                                                    <label for="tanggal_service">Tanggal Service:</label>
+                                                    <input class="form-control" type="date" id="tanggal_service"
+                                                        name="tanggal_service">
+
+                                                    <label for="request_montir">Request Montir:</label>
+                                                    <input class="form-control" type="text" id="request_montir"
+                                                        name="request_montir">
+
+                                                    <label for="no_hp">Nomor Telepon:</label>
+                                                    <input class="form-control" type="value" id="no_hp" name="no_hp">
+
+                                                    <label for="email">Email:</label>
+                                                    <input class="form-control" type="email" id="email" name="email">
+
+                                                    <div style="margin-top: 2em;">
+                                                        <button type="submit" class="btn btn-primary">
+                                                            Submit
+                                                        </button>
+
+                                                        <button type="reset" class="btn btn-success">
+                                                            Reset
+                                                        </button>
+                                                    </div>
+
+                                                </form>
+                                            </div>
+                                        </div>
+                                        </legend>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12" style="margin-top: 7em;background-color: grey; color: azure;">
+            <p class="text-center" style="padding-top: 5px;">Develop By Mahasiswa <a
+                    href="https://webthemez.com/tag/free" target="_blank"><strong style="color:skyblue;">STT Nurul
+                        Fikri</strong></a> @2022</p>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
